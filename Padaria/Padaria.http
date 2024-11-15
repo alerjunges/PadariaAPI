@@ -1,0 +1,6 @@
+@Padaria_HostAddress = http://localhost:5206
+
+GET {{Padaria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
