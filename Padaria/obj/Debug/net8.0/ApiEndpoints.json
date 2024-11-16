@@ -395,32 +395,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.LogController",
-    "Method": "ListarTodos",
-    "RelativePath": "api/Log",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PadariaAPI.Controllers.LogController",
-    "Method": "Adicionar",
-    "RelativePath": "api/Log",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "logDto",
-        "Type": "PadariaAPI.DTO.LogDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "ListarTodos",
     "RelativePath": "api/Produtos",

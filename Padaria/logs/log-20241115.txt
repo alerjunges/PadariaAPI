@@ -1,0 +1,260 @@
+2024-11-15 23:09:14 [INF] Inicializando aplicação...
+2024-11-15 23:09:15 [INF] Habilitando Swagger para o ambiente de desenvolvimento.
+2024-11-15 23:09:15 [INF] Mapeando controladores.
+2024-11-15 23:09:15 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 23:09:16 [INF] Aplicação iniciada com sucesso.
+2024-11-15 23:09:16 [DBG] Hosting starting
+2024-11-15 23:09:17 [INF] Now listening on: http://localhost:5206
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" received FIN.
+2024-11-15 23:09:17 [DBG] Loaded hosting startup assembly PadariaAPI
+2024-11-15 23:09:17 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 23:09:17 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 23:09:17 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" accepted.
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" started.
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" disconnecting.
+2024-11-15 23:09:17 [DBG] Connection id "0HN85SEMF26AA" stopped.
+2024-11-15 23:09:17 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 23:09:17 [INF] Hosting environment: Development
+2024-11-15 23:09:17 [INF] Content root path: C:\Users\USER\Documents\Programa-o-Orientada-a-Objetos\Padaria\Padaria
+2024-11-15 23:09:17 [DBG] Hosting started
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AB" accepted.
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AB" started.
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AC" accepted.
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AC" started.
+2024-11-15 23:09:18 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-11-15 23:09:18 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 23:09:18 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 23:09:18 [DBG] Request did not match any endpoints
+2024-11-15 23:09:18 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 23:09:18 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 23:09:18 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 23:09:18 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AB" completed keep alive response.
+2024-11-15 23:09:18 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 761.7888ms
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AD" accepted.
+2024-11-15 23:09:18 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AD" started.
+2024-11-15 23:09:18 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.js - null null
+2024-11-15 23:09:18 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-11-15 23:09:18 [DBG] Connection id "0HN85SEMF26AB" completed keep alive response.
+2024-11-15 23:09:18 [DBG] No candidates found for the request path '/swagger/index.js'
+2024-11-15 23:09:19 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 38.6217ms
+2024-11-15 23:09:19 [DBG] Request did not match any endpoints
+2024-11-15 23:09:19 [DBG] Connection id "0HN85SEMF26AC" completed keep alive response.
+2024-11-15 23:09:19 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.js - 200 null application/javascript;charset=utf-8 85.8121ms
+2024-11-15 23:09:19 [DBG] Connection id "0HN85SEMF26AD" completed keep alive response.
+2024-11-15 23:09:19 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.4902ms
+2024-11-15 23:09:19 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-11-15 23:09:19 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 23:09:19 [DBG] Request did not match any endpoints
+2024-11-15 23:09:19 [DBG] Connection id "0HN85SEMF26AD" completed keep alive response.
+2024-11-15 23:09:19 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 386.2356ms
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AC" received FIN.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AD" received FIN.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AB" received FIN.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AC" disconnecting.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AB" disconnecting.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AD" disconnecting.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AC" stopped.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AD" stopped.
+2024-11-15 23:09:26 [DBG] Connection id "0HN85SEMF26AB" stopped.
+2024-11-15 23:09:30 [DBG] Connection id "0HN85SEMF26AE" accepted.
+2024-11-15 23:09:30 [DBG] Connection id "0HN85SEMF26AE" started.
+2024-11-15 23:09:30 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/Clientes - application/json 146
+2024-11-15 23:09:30 [DBG] 1 candidate(s) found for the request path '/api/Clientes'
+2024-11-15 23:09:30 [DBG] Endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)' with route pattern 'api/Clientes' is valid for the request path '/api/Clientes'
+2024-11-15 23:09:30 [DBG] Request matched endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:09:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 23:09:30 [INF] Executing endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:09:30 [INF] Route matched with {action = "Adicionar", controller = "Clientes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Adicionar(PadariaAPI.DTO.ClienteDTO) on controller PadariaAPI.Controllers.ClientesController (PadariaAPI).
+2024-11-15 23:09:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 23:09:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 23:09:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 23:09:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 23:09:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 23:09:30 [DBG] Executing controller factory for controller PadariaAPI.Controllers.ClientesController (PadariaAPI)
+2024-11-15 23:09:31 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 23:09:31 [DBG] Executed controller factory for controller PadariaAPI.Controllers.ClientesController (PadariaAPI)
+2024-11-15 23:09:31 [DBG] Attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' ...
+2024-11-15 23:09:31 [DBG] Attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' using the name '' in request data ...
+2024-11-15 23:09:31 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 23:09:31 [DBG] Connection id "0HN85SEMF26AE", Request id "0HN85SEMF26AE:00000001": started reading request body.
+2024-11-15 23:09:31 [DBG] Connection id "0HN85SEMF26AE", Request id "0HN85SEMF26AE:00000001": done reading request body.
+2024-11-15 23:09:31 [DBG] JSON input formatter succeeded, deserializing to type 'PadariaAPI.DTO.ClienteDTO'
+2024-11-15 23:09:31 [DBG] Done attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:09:31 [DBG] Done attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:09:31 [DBG] Attempting to validate the bound parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' ...
+2024-11-15 23:09:31 [DBG] Done attempting to validate the bound parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:09:31 [INF] Iniciando processo de adição de cliente.
+2024-11-15 23:09:32 [DBG] The property 'Compra.FornecedorId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] The property 'Compra.FuncionarioId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] The property 'Ingrediente.CompraId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] The property 'Produto.VendaId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] The property 'Venda.ClienteId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] The property 'Venda.FuncionarioId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:09:32 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'InMemoryDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=PadariaDb 
+2024-11-15 23:09:32 [DBG] 'InMemoryDbContext' generated a value for the property 'Cliente.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:09:32 [DBG] Context 'InMemoryDbContext' started tracking 'Cliente' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:09:32 [DBG] SaveChanges starting for 'InMemoryDbContext'.
+2024-11-15 23:09:32 [DBG] DetectChanges starting for 'InMemoryDbContext'.
+2024-11-15 23:09:32 [DBG] DetectChanges completed for 'InMemoryDbContext'.
+2024-11-15 23:09:32 [INF] Saved 1 entities to in-memory store.
+2024-11-15 23:09:32 [DBG] An entity of type 'Cliente' tracked by 'InMemoryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:09:32 [DBG] SaveChanges completed for 'InMemoryDbContext' with 1 entities written to the database.
+2024-11-15 23:09:32 [INF] Cliente adicionado com sucesso. ID: 1, Nome: João Silva
+2024-11-15 23:09:32 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 23:09:32 [DBG] No information found on request to perform content negotiation.
+2024-11-15 23:09:32 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 23:09:32 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 23:09:32 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 23:09:32 [INF] Executing CreatedAtActionResult, writing value of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:09:32 [DBG] Found the endpoints ["PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI)"] for address (id=[1],action=[ObterPorId],controller=[Clientes])
+2024-11-15 23:09:32 [DBG] Successfully processed template api/Clientes/{id} for PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI) resulting in /api/Clientes/1 and 
+2024-11-15 23:09:32 [DBG] Link generation succeeded for endpoints ["PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI)"] with result /api/Clientes/1
+2024-11-15 23:09:32 [INF] Executed action PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI) in 1941.9231ms
+2024-11-15 23:09:32 [INF] Executed endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:09:32 [DBG] Connection id "0HN85SEMF26AE" completed keep alive response.
+2024-11-15 23:09:32 [DBG] 'InMemoryDbContext' disposed.
+2024-11-15 23:09:32 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/Clientes - 201 null application/json; charset=utf-8 2164.294ms
+2024-11-15 23:09:36 [DBG] Connection id "0HN85SEMF26AE" received FIN.
+2024-11-15 23:09:36 [DBG] Connection id "0HN85SEMF26AE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:09:36 [DBG] Connection id "0HN85SEMF26AE" disconnecting.
+2024-11-15 23:09:36 [DBG] Connection id "0HN85SEMF26AE" stopped.
+2024-11-15 23:26:03 [INF] Inicializando aplicação...
+2024-11-15 23:26:05 [INF] Habilitando Swagger para o ambiente de desenvolvimento.
+2024-11-15 23:26:05 [INF] Mapeando controladores.
+2024-11-15 23:26:05 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 23:26:05 [INF] Aplicação iniciada com sucesso.
+2024-11-15 23:26:05 [DBG] Hosting starting
+2024-11-15 23:26:06 [INF] Now listening on: http://localhost:5206
+2024-11-15 23:26:06 [DBG] Loaded hosting startup assembly PadariaAPI
+2024-11-15 23:26:06 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 23:26:06 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 23:26:06 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 23:26:06 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 23:26:06 [INF] Hosting environment: Development
+2024-11-15 23:26:06 [INF] Content root path: C:\Users\USER\Documents\Programa-o-Orientada-a-Objetos\Padaria\Padaria
+2024-11-15 23:26:06 [DBG] Hosting started
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" accepted.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" accepted.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" started.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" started.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" received FIN.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" received FIN.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" disconnecting.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" disconnecting.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV1" stopped.
+2024-11-15 23:26:06 [DBG] Connection id "0HN85SO38ETV2" stopped.
+2024-11-15 23:26:07 [DBG] Connection id "0HN85SO38ETV3" accepted.
+2024-11-15 23:26:07 [DBG] Connection id "0HN85SO38ETV3" started.
+2024-11-15 23:26:07 [DBG] Connection id "0HN85SO38ETV4" accepted.
+2024-11-15 23:26:07 [DBG] Connection id "0HN85SO38ETV4" started.
+2024-11-15 23:26:07 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2024-11-15 23:26:07 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 23:26:07 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 23:26:07 [DBG] Request did not match any endpoints
+2024-11-15 23:26:07 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 23:26:07 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 23:26:07 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 23:26:07 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 23:26:07 [DBG] Connection id "0HN85SO38ETV4" completed keep alive response.
+2024-11-15 23:26:07 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 716.9592ms
+2024-11-15 23:26:08 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV5" accepted.
+2024-11-15 23:26:08 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.js - null null
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV5" started.
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV4" completed keep alive response.
+2024-11-15 23:26:08 [DBG] No candidates found for the request path '/swagger/index.js'
+2024-11-15 23:26:08 [DBG] Request did not match any endpoints
+2024-11-15 23:26:08 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 28.2696ms
+2024-11-15 23:26:08 [INF] Request starting HTTP/1.1 GET http://localhost:5206/_vs/browserLink - null null
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV3" completed keep alive response.
+2024-11-15 23:26:08 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.js - 200 null application/javascript;charset=utf-8 49.1561ms
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV5" completed keep alive response.
+2024-11-15 23:26:08 [INF] Request finished HTTP/1.1 GET http://localhost:5206/_vs/browserLink - 200 null text/javascript; charset=UTF-8 158.1327ms
+2024-11-15 23:26:08 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2024-11-15 23:26:08 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 23:26:08 [DBG] Request did not match any endpoints
+2024-11-15 23:26:08 [DBG] Connection id "0HN85SO38ETV5" completed keep alive response.
+2024-11-15 23:26:08 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 371.8818ms
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV4" received FIN.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV3" received FIN.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV5" received FIN.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV4" disconnecting.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV5" disconnecting.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV4" stopped.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV3" disconnecting.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV5" stopped.
+2024-11-15 23:26:09 [DBG] Connection id "0HN85SO38ETV3" stopped.
+2024-11-15 23:26:14 [DBG] Connection id "0HN85SO38ETV6" accepted.
+2024-11-15 23:26:14 [DBG] Connection id "0HN85SO38ETV6" started.
+2024-11-15 23:26:14 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/Clientes - application/json 146
+2024-11-15 23:26:14 [DBG] 1 candidate(s) found for the request path '/api/Clientes'
+2024-11-15 23:26:14 [DBG] Endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)' with route pattern 'api/Clientes' is valid for the request path '/api/Clientes'
+2024-11-15 23:26:14 [DBG] Request matched endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:26:14 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 23:26:14 [INF] Executing endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:26:14 [INF] Route matched with {action = "Adicionar", controller = "Clientes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Adicionar(PadariaAPI.DTO.ClienteDTO) on controller PadariaAPI.Controllers.ClientesController (PadariaAPI).
+2024-11-15 23:26:14 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 23:26:14 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 23:26:14 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 23:26:14 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 23:26:14 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 23:26:14 [DBG] Executing controller factory for controller PadariaAPI.Controllers.ClientesController (PadariaAPI)
+2024-11-15 23:26:15 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 23:26:15 [DBG] Executed controller factory for controller PadariaAPI.Controllers.ClientesController (PadariaAPI)
+2024-11-15 23:26:15 [DBG] Attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' ...
+2024-11-15 23:26:15 [DBG] Attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' using the name '' in request data ...
+2024-11-15 23:26:15 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 23:26:15 [DBG] Connection id "0HN85SO38ETV6", Request id "0HN85SO38ETV6:00000001": started reading request body.
+2024-11-15 23:26:15 [DBG] Connection id "0HN85SO38ETV6", Request id "0HN85SO38ETV6:00000001": done reading request body.
+2024-11-15 23:26:15 [DBG] JSON input formatter succeeded, deserializing to type 'PadariaAPI.DTO.ClienteDTO'
+2024-11-15 23:26:15 [DBG] Done attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:26:15 [DBG] Done attempting to bind parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:26:15 [DBG] Attempting to validate the bound parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO' ...
+2024-11-15 23:26:15 [DBG] Done attempting to validate the bound parameter 'clienteDto' of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:26:15 [INF] Iniciando processo de adição de cliente.
+2024-11-15 23:26:16 [DBG] The property 'Compra.FornecedorId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] The property 'Compra.FuncionarioId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] The property 'Ingrediente.CompraId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] The property 'Produto.VendaId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] The property 'Venda.ClienteId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] The property 'Venda.FuncionarioId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-11-15 23:26:16 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'InMemoryDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=PadariaDb 
+2024-11-15 23:26:16 [DBG] 'InMemoryDbContext' generated a value for the property 'Cliente.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:26:16 [DBG] Context 'InMemoryDbContext' started tracking 'Cliente' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:26:16 [DBG] SaveChanges starting for 'InMemoryDbContext'.
+2024-11-15 23:26:16 [DBG] DetectChanges starting for 'InMemoryDbContext'.
+2024-11-15 23:26:16 [DBG] DetectChanges completed for 'InMemoryDbContext'.
+2024-11-15 23:26:16 [INF] Saved 1 entities to in-memory store.
+2024-11-15 23:26:16 [DBG] An entity of type 'Cliente' tracked by 'InMemoryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 23:26:16 [DBG] SaveChanges completed for 'InMemoryDbContext' with 1 entities written to the database.
+2024-11-15 23:26:16 [INF] Cliente adicionado com sucesso. ID: 1, Nome: João Silva
+2024-11-15 23:26:16 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 23:26:16 [DBG] No information found on request to perform content negotiation.
+2024-11-15 23:26:16 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 23:26:16 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 23:26:16 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 23:26:16 [INF] Executing CreatedAtActionResult, writing value of type 'PadariaAPI.DTO.ClienteDTO'.
+2024-11-15 23:26:16 [DBG] Found the endpoints ["PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI)"] for address (id=[1],action=[ObterPorId],controller=[Clientes])
+2024-11-15 23:26:16 [DBG] Successfully processed template api/Clientes/{id} for PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI) resulting in /api/Clientes/1 and 
+2024-11-15 23:26:16 [DBG] Link generation succeeded for endpoints ["PadariaAPI.Controllers.ClientesController.ObterPorId (PadariaAPI)"] with result /api/Clientes/1
+2024-11-15 23:26:16 [INF] Executed action PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI) in 1942.249ms
+2024-11-15 23:26:16 [INF] Executed endpoint 'PadariaAPI.Controllers.ClientesController.Adicionar (PadariaAPI)'
+2024-11-15 23:26:16 [DBG] Connection id "0HN85SO38ETV6" completed keep alive response.
+2024-11-15 23:26:16 [DBG] 'InMemoryDbContext' disposed.
+2024-11-15 23:26:16 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/Clientes - 201 null application/json; charset=utf-8 2163.9378ms
+2024-11-15 23:26:19 [DBG] Connection id "0HN85SO38ETV6" received FIN.
+2024-11-15 23:26:19 [DBG] Connection id "0HN85SO38ETV6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 23:26:19 [DBG] Connection id "0HN85SO38ETV6" disconnecting.
+2024-11-15 23:26:19 [DBG] Connection id "0HN85SO38ETV6" stopped.
