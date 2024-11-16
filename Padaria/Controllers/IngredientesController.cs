@@ -4,16 +4,17 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//IngredienteController responsável por tratar os erros IngredienteService
 namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class IngredienteController : ControllerBase
+    public class IngredientesController : ControllerBase
     {
         private readonly IngredienteService _ingredienteService;
 
         //construtor da classe IngredienteController
-        public IngredienteController(InMemoryDbContext context)
+        public IngredientesController(InMemoryDbContext context)
         {
             //inicializa o IngredienteService com o contexto do banco de dados
             _ingredienteService = new IngredienteService(context);

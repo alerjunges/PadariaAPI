@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "PadariaAPI.Controllers.ClienteController",
+    "ContainingType": "PadariaAPI.Controllers.ClientesController",
     "Method": "ListarTodos",
-    "RelativePath": "api/Cliente",
+    "RelativePath": "api/Clientes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ClienteController",
+    "ContainingType": "PadariaAPI.Controllers.ClientesController",
     "Method": "Adicionar",
-    "RelativePath": "api/Cliente",
+    "RelativePath": "api/Clientes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ClienteController",
+    "ContainingType": "PadariaAPI.Controllers.ClientesController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Cliente/{id}",
+    "RelativePath": "api/Clientes/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ClienteController",
+    "ContainingType": "PadariaAPI.Controllers.ClientesController",
     "Method": "Atualizar",
-    "RelativePath": "api/Cliente/{id}",
+    "RelativePath": "api/Clientes/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ClienteController",
+    "ContainingType": "PadariaAPI.Controllers.ClientesController",
     "Method": "Remover",
-    "RelativePath": "api/Cliente/{id}",
+    "RelativePath": "api/Clientes/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -79,9 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.CompraController",
+    "ContainingType": "PadariaAPI.Controllers.ComprasController",
     "Method": "ListarTodas",
-    "RelativePath": "api/Compra",
+    "RelativePath": "api/Compras",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -89,9 +89,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.CompraController",
+    "ContainingType": "PadariaAPI.Controllers.ComprasController",
     "Method": "RegistrarCompra",
-    "RelativePath": "api/Compra",
+    "RelativePath": "api/Compras",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -105,9 +105,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.CompraController",
+    "ContainingType": "PadariaAPI.Controllers.ComprasController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Compra/{id}",
+    "RelativePath": "api/Compras/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -121,9 +121,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.CompraController",
+    "ContainingType": "PadariaAPI.Controllers.ComprasController",
     "Method": "AtualizarCompra",
-    "RelativePath": "api/Compra/{id}",
+    "RelativePath": "api/Compras/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -142,9 +142,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.CompraController",
+    "ContainingType": "PadariaAPI.Controllers.ComprasController",
     "Method": "RemoverCompra",
-    "RelativePath": "api/Compra/{id}",
+    "RelativePath": "api/Compras/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -158,9 +158,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FornecedorController",
+    "ContainingType": "PadariaAPI.Controllers.FornecedoresController",
     "Method": "ListarTodos",
-    "RelativePath": "api/Fornecedor",
+    "RelativePath": "api/Fornecedores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -168,9 +168,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FornecedorController",
+    "ContainingType": "PadariaAPI.Controllers.FornecedoresController",
     "Method": "Adicionar",
-    "RelativePath": "api/Fornecedor",
+    "RelativePath": "api/Fornecedores",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -184,9 +184,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FornecedorController",
+    "ContainingType": "PadariaAPI.Controllers.FornecedoresController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Fornecedor/{id}",
+    "RelativePath": "api/Fornecedores/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -200,9 +200,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FornecedorController",
+    "ContainingType": "PadariaAPI.Controllers.FornecedoresController",
     "Method": "Atualizar",
-    "RelativePath": "api/Fornecedor/{id}",
+    "RelativePath": "api/Fornecedores/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -221,9 +221,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FornecedorController",
+    "ContainingType": "PadariaAPI.Controllers.FornecedoresController",
     "Method": "Remover",
-    "RelativePath": "api/Fornecedor/{id}",
+    "RelativePath": "api/Fornecedores/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -237,9 +237,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FuncionarioController",
+    "ContainingType": "PadariaAPI.Controllers.FuncionariosController",
     "Method": "ListarTodos",
-    "RelativePath": "api/Funcionario",
+    "RelativePath": "api/Funcionarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -247,9 +247,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FuncionarioController",
+    "ContainingType": "PadariaAPI.Controllers.FuncionariosController",
     "Method": "Adicionar",
-    "RelativePath": "api/Funcionario",
+    "RelativePath": "api/Funcionarios",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -263,9 +263,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FuncionarioController",
+    "ContainingType": "PadariaAPI.Controllers.FuncionariosController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "api/Funcionarios/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -279,9 +279,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FuncionarioController",
+    "ContainingType": "PadariaAPI.Controllers.FuncionariosController",
     "Method": "Atualizar",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "api/Funcionarios/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -300,9 +300,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.FuncionarioController",
+    "ContainingType": "PadariaAPI.Controllers.FuncionariosController",
     "Method": "Remover",
-    "RelativePath": "api/Funcionario/{id}",
+    "RelativePath": "api/Funcionarios/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -316,9 +316,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.IngredienteController",
+    "ContainingType": "PadariaAPI.Controllers.IngredientesController",
     "Method": "ListarTodos",
-    "RelativePath": "api/Ingrediente",
+    "RelativePath": "api/Ingredientes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -326,9 +326,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.IngredienteController",
+    "ContainingType": "PadariaAPI.Controllers.IngredientesController",
     "Method": "Adicionar",
-    "RelativePath": "api/Ingrediente",
+    "RelativePath": "api/Ingredientes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -342,9 +342,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.IngredienteController",
+    "ContainingType": "PadariaAPI.Controllers.IngredientesController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Ingrediente/{id}",
+    "RelativePath": "api/Ingredientes/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -358,9 +358,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.IngredienteController",
+    "ContainingType": "PadariaAPI.Controllers.IngredientesController",
     "Method": "Atualizar",
-    "RelativePath": "api/Ingrediente/{id}",
+    "RelativePath": "api/Ingredientes/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -379,9 +379,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.IngredienteController",
+    "ContainingType": "PadariaAPI.Controllers.IngredientesController",
     "Method": "Remover",
-    "RelativePath": "api/Ingrediente/{id}",
+    "RelativePath": "api/Ingredientes/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -421,9 +421,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ProdutoController",
+    "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "ListarTodos",
-    "RelativePath": "api/Produto",
+    "RelativePath": "api/Produtos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -431,9 +431,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ProdutoController",
+    "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "Adicionar",
-    "RelativePath": "api/Produto",
+    "RelativePath": "api/Produtos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -447,9 +447,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ProdutoController",
+    "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -463,9 +463,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ProdutoController",
+    "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "Atualizar",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -484,9 +484,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.ProdutoController",
+    "ContainingType": "PadariaAPI.Controllers.ProdutosController",
     "Method": "Remover",
-    "RelativePath": "api/Produto/{id}",
+    "RelativePath": "api/Produtos/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -500,9 +500,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.VendaController",
+    "ContainingType": "PadariaAPI.Controllers.VendasController",
     "Method": "ListarTodas",
-    "RelativePath": "api/Venda",
+    "RelativePath": "api/Vendas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -510,9 +510,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.VendaController",
+    "ContainingType": "PadariaAPI.Controllers.VendasController",
     "Method": "RegistrarVenda",
-    "RelativePath": "api/Venda",
+    "RelativePath": "api/Vendas",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -526,9 +526,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.VendaController",
+    "ContainingType": "PadariaAPI.Controllers.VendasController",
     "Method": "ObterPorId",
-    "RelativePath": "api/Venda/{id}",
+    "RelativePath": "api/Vendas/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -542,9 +542,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.VendaController",
+    "ContainingType": "PadariaAPI.Controllers.VendasController",
     "Method": "AtualizarVenda",
-    "RelativePath": "api/Venda/{id}",
+    "RelativePath": "api/Vendas/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -563,9 +563,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PadariaAPI.Controllers.VendaController",
+    "ContainingType": "PadariaAPI.Controllers.VendasController",
     "Method": "RemoverVenda",
-    "RelativePath": "api/Venda/{id}",
+    "RelativePath": "api/Vendas/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

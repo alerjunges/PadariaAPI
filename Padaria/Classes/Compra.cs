@@ -10,11 +10,10 @@ namespace PadariaAPI.Classes
         public int Id { get; set; }
 
         //List<Ingrediente> para armazenar vários itens
-
         public List<Ingrediente> Ingredientes { get; set; } = new();
 
         //armazena a data em que a compra foi feita
-        // DateTime.Today para pegar a data atual automaticamente
+        //DateTime.Today para pegar a data atual automaticamente
         public DateTime DataCompra { get; set; } = DateTime.Today;
 
         //armazena o fornecedor que fez a venda dos ingredientes
@@ -23,7 +22,7 @@ namespace PadariaAPI.Classes
         //armazena informações do funcionário que realizou a compra
         public Funcionario Funcionario { get; set; }
 
-        // calcula o total da compra, somando o preço de cada ingrediente da lista `Ingredientes`
+        //calcula o total da compra
         public decimal CalcularTotal()
         {
             return Ingredientes.Sum(i => i.Preco);

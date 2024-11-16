@@ -4,16 +4,17 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//VendaController responsável por tratar os erros VendaService
 namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class VendaController : ControllerBase
+    public class VendasController : ControllerBase
     {
         private readonly VendaService _vendaService;
 
         //construtor da classe VendaController
-        public VendaController(InMemoryDbContext context)
+        public VendasController(InMemoryDbContext context)
         {
             //inicializa o VendaService com o contexto do banco de dados
             _vendaService = new VendaService(context);

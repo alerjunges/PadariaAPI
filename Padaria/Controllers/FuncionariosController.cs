@@ -4,16 +4,17 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//FuncionarioController responsável por tratar os erros FuncionarioService
 namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class FuncionarioController : ControllerBase
+    public class FuncionariosController : ControllerBase
     {
         private readonly FuncionarioService _funcionarioService;
 
         //construtor da classe FuncionarioController
-        public FuncionarioController(InMemoryDbContext context)
+        public FuncionariosController(InMemoryDbContext context)
         {
             //inicializa o FuncionarioService com o contexto do banco de dados
             _funcionarioService = new FuncionarioService(context);

@@ -4,29 +4,30 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//FornecedorController responsável por tratar os erros FornecedorService
 namespace PadariaAPI.Controllers
 {
-    [ApiController] 
+    [ApiController]
     [Route("api/[controller]")]
-    public class ClienteController : ControllerBase
+    public class FornecedoresController : ControllerBase
     {
-        private readonly ClienteService _clienteService;
+        private readonly FornecedorService _fornecedorService;
 
-        //construtor da classe ClienteController
-        public ClienteController(InMemoryDbContext context) 
+        //construtor da classe FornecedorController
+        public FornecedoresController(InMemoryDbContext context)
         {
-            //inicializa o ClienteService com o contexto do banco de dados
-            _clienteService = new ClienteService(context);
+            //inicializa o FornecedorService com o contexto do banco de dados
+            _fornecedorService = new FornecedorService(context);
         }
 
-        [HttpGet] //requisições GET
+        [HttpGet] //requisições GET 
         public IActionResult ListarTodos()
         {
             try
             {
-                //lista de todos os clientes 
-                var clientes = _clienteService.ListarTodos();
-                return Ok(clientes); //retorna status HTTP 200
+                //lista de todos os fornecedores
+                var fornecedores = _fornecedorService.ListarTodos();
+                return Ok(fornecedores); //retorna status HTTP 200
             }
             catch (Exception ex)
             {
@@ -40,34 +41,12 @@ namespace PadariaAPI.Controllers
         {
             try
             {
-                //obter um cliente pelo id
-                var cliente = _clienteService.ObterPorId(id);
-                if (cliente == null) //verifica se o cliente não foi encontrado
-                    return NotFound("Cliente não encontrado."); //retorna erro 404
+                //obter um fornecedor pelo id
+                var fornecedor = _fornecedorService.ObterPorId(id);
+                if (fornecedor == null) //verifica se o fornecedor não foi encontrado
+                    return NotFound("Fornecedor não encontrado."); //retorna erro 404
 
-                return Ok(cliente); //retorna status 200
-            }
-            catch (Exception ex)
-            {
-                //retorna um erro 500
-                return StatusCode(500, $"Erro interno: {ex.Message}");
-            }
-        }
-
-        [HttpPost] //requisições POST
-        public IActionResult Adicionar([FromBody] ClienteDTO clienteDto)
-        {
-            try
-            {
-                //adicionar um novo cliente
-                var cliente = _clienteService.Adicionar(clienteDto);
-                //retorna status 201
-                return CreatedAtAction(nameof(ObterPorId), new { id = cliente.Id }, cliente);
-            }
-            catch (ArgumentException ex)
-            {
-                //retorna erro 400
-                return BadRequest(ex.Message);
+                return Ok(fornecedor); //retorna status 200
             }
             catch (Exception ex)
             {
@@ -76,15 +55,15 @@ namespace PadariaAPI.Controllers
             }
         }
 
-        [HttpPut("{id}")] //requisições PUT com parâmetro id
-        public IActionResult Atualizar(int id, [FromBody] ClienteDTO clienteDto)
+        [HttpPost] //requisições POST 
+        public IActionResult Adicionar([FromBody] FornecedorDTO fornecedorDto)
         {
             try
             {
-                //atualizar o cliente 
-                _clienteService.Atualizar(id, clienteDto);
-                //retorna status 204
-                return NoContent();
+                //adicionar um novo fornecedor
+                var fornecedor = _fornecedorService.Adicionar(fornecedorDto);
+                //retorna status 201
+                return CreatedAtAction(nameof(ObterPorId), new { id = fornecedor.Id }, fornecedor);
             }
             catch (ArgumentException ex)
             {
@@ -98,13 +77,35 @@ namespace PadariaAPI.Controllers
             }
         }
 
+        [HttpPut("{id}")] //requisições PUT com parâmetro id
+        public IActionResult Atualizar(int id, [FromBody] FornecedorDTO fornecedorDto)
+        {
+            try
+            {
+                //atualizar o fornecedor
+                _fornecedorService.Atualizar(id, fornecedorDto);
+                //retorna status 204
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                // retorna erro 400
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                // retorna erro 500 
+                return StatusCode(500, $"Erro interno: {ex.Message}");
+            }
+        }
+
         [HttpDelete("{id}")] //requisições DELETE com parâmetro id
         public IActionResult Remover(int id)
         {
             try
             {
-                //remover o cliente 
-                _clienteService.Remover(id);
+                //remover o fornecedor 
+                _fornecedorService.Remover(id);
                 //retorna status 204
                 return NoContent();
             }

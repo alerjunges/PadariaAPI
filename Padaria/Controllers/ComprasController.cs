@@ -4,16 +4,17 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//CompraController responsável por tratar os erros CompraService
 namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CompraController : ControllerBase
+    public class ComprasController : ControllerBase
     {
         private readonly CompraService _compraService;
 
         //construtor da classe CompraController
-        public CompraController(InMemoryDbContext context)
+        public ComprasController(InMemoryDbContext context)
         {
             //inicializa o CompraService com o contexto do banco de dados
             _compraService = new CompraService(context);

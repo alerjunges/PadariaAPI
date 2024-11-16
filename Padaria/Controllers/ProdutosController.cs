@@ -4,16 +4,17 @@ using PadariaAPI.Data;
 using PadariaAPI.Services;
 using System;
 
+//ProdutoController responsável por tratar os erros ProdutoService
 namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProdutoController : ControllerBase
+    public class ProdutosController : ControllerBase
     {
         private readonly ProdutoService _produtoService;
 
         //construtor da classe ProdutoController
-        public ProdutoController(InMemoryDbContext context)
+        public ProdutosController(InMemoryDbContext context)
         {
             //inicializa o ProdutoService com o contexto do banco de dados
             _produtoService = new ProdutoService(context);

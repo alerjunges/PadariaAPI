@@ -1,10 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using PadariaAPI.Data;
+using System;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+//ele serve como um intermediário entre a aplicação e o banco de dados
 builder.Services.AddDbContext<InMemoryDbContext>(options =>
+    //configurando para usar um banco de dados em memória
     options.UseInMemoryDatabase("PadariaDb"));
 
 builder.Services.AddControllers()

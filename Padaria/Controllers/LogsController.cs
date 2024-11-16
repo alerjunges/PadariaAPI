@@ -8,12 +8,12 @@ namespace PadariaAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LogController : ControllerBase
+    public class LogsController : ControllerBase
     {
         private readonly LogService _logService;
 
         //construtor da classe LogController
-        public LogController(InMemoryDbContext context)
+        public LogsController(InMemoryDbContext context)
         {
             //inicializa o LogService com o contexto do banco de dados
             _logService = new LogService(context);

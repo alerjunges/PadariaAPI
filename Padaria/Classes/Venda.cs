@@ -21,7 +21,7 @@ namespace PadariaAPI.Classes
         //cliente que realizou a compra
         public Cliente Cliente { get; set; }
 
-        // método para calcular o total da venda
+        //método para calcular o total da venda
         public decimal CalcularTotal()
         {
             //calcula a soma dos preços dos produtos, aplicando desconto de 50% se o produto vencer hoje
